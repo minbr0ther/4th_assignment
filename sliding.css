@@ -1,0 +1,98 @@
+#wrapDiv{
+	z-index: 1;
+	position: relative;
+}
+
+#wrapDiv div {
+	position: absolute;
+	width:600px;
+	height:337.5px;
+	font-size:9em;
+	color:white;
+	text-align:center;
+	line-height:374px
+}
+
+#f_four{
+	background-color: black;
+}
+
+#one {
+	background-color: red;
+	transform:translateX(600px);
+}
+
+#two {
+	background-color: green;
+	transform:translateX(1200px);
+}
+
+#three {
+	background-color: blue;
+	transform:translateX(1800px);
+}
+
+#four {
+	background-color: black;
+	transform:translateX(2400px);
+}
+
+#f_one {
+	background-color: red;
+	transform:translateX(3000px);
+}
+
+#display {
+	z-index:2;
+	position: absolute;
+	transform:translate3d(600px,100px,0);
+	width:600px;
+	height:337.5px;
+	border:1px solid lightgray;
+	overflow:hidden;
+}
+
+#wrapBtn {
+	z-index:3;
+	position: relative;
+	transform:translate3d(600px,100px,0);
+	width:600px;
+	height:337.5px;
+}
+
+#wrapBtn div{
+	position:absolute;
+	font-size:5em;
+	opacity: 0.5;
+	color:white;
+	cursor:pointer;
+}
+
+#leftBtn {
+	top:40%;
+	left:3%;
+}
+
+#rightBtn {
+	top:40%;
+	left:90%;
+}
+
+#wrapWrapIndi {
+	z-index:4;
+	position:absolute;
+	transform:translate3d(600px,55px,0);
+	width:600px;
+	height:337.5px;
+}
+
+#wrapIndicator {
+	position:relative;
+	left:40%;
+	display:inline-block;
+	font-size:2em;
+	opacity: 0.5;
+	color:white;
+	cursor:pointer;
+}
+
